@@ -1,0 +1,125 @@
+/*semua*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+/*logo*/
+.navbar-brand img {
+    height: 70px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/*navbar list*/
+.navbar-nav li {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 15px;
+}
+
+
+/*nav link warna text pada navbar*/
+.navbar-nav li a {
+    font-weight: 600px;
+    float: right;
+    /*buat pas dikecilin layar nya posisi box nya drop dari kanan*/
+}
+
+/*saat di pointer ke navbar list*/
+.navbar-nav li a:hover {
+    color: rgb(255, 196, 0) !important;
+    font-weight: bold;
+    /*test1*/
+}
+
+/*buat box toggle*/
+.navbar-toggler .navbar-toggler-icon {
+    font-size: 30px;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.btn-article a {
+    color: white;
+    text-decoration: none;
+}
+
+#top-about {
+    color: black;
+}
+
+footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    margin-top: 100px;
+}
+
+footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+}
+
+.copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+    padding-top: 2em;
+    color: white;
+}
+
+/*log in */
+.login-form {
+    width: 400px;
+    margin: 50px auto;
+}
+
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.login-form h2 {
+    margin: 0 0 15px;
+}
+
+.btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+
+.btn {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.statustxt{
+    font-size: 50px;
+}
+
+.titleAddData{
+    font-size: 30px;
+}
+
+.updatetxt{
+    font-size: 30px;
+}
